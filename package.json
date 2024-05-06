@@ -1,0 +1,23 @@
+{
+  "name": "secure-markdown-to-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "ts-node ./index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "juice": "^10.0.0",
+    "sanitize-html": "^2.13.0",
+    "showdown": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/sanitize-html": "^2.11.0",
+    "@types/showdown": "^2.0.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
